@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <title>Document</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-template-rows: repeat(2, 310px);
+            grid-gap: 5px;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div><img src="sun.jpg"></div>
+        <div><img src="mercury.jpg"></div>
+        <div><img src="venus.jpg"></div>
+        <div><img src="earth.jpg"></div>
+        <div><img src="mars.jpg"></div>
+        <div><img src="jupiter.jpg"></div>
+        <div><img src="saturn.jpg"></div>
+        <div><img src="uranus.jpg"></div>
+        <div><img src="neptune.jpg"></div>
+        <div><img src="moon.jpg"></div>
+        <div><img src="io.jpg"></div>
+        <div><img src="enceladus.jpg"></div>
+    </div>
+</body>
+</html>
